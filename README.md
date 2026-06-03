@@ -1,5 +1,3 @@
-# Full-Stack-Social-platform-for-Developers
-
 # DevSearch - Developer Social Platform
 
 A full stack web application built with Django that allows developers to showcase their projects, connect with other developers, and receive feedback on their work.
