@@ -93,11 +93,10 @@ DevSearch is a developer portfolio and social platform where developers can:
 ## Tech Stack
 
 **Backend**
-- Python 3.13
-- Django 6.0
+- Python
+- Django
 - Django REST Framework
-- SimpleJWT (JWT Authentication)
-- django-cors-headers
+- JWT (JWT Authentication)
 
 **Database**
 - SQLite (development)
@@ -107,7 +106,7 @@ DevSearch is a developer portfolio and social platform where developers can:
 - Django Templates
 - HTML / CSS
 - JavaScript (Fetch API for tag removal)
-- Custom UIKit CSS framework
+- Custom UIKit CSS framework (got from a resource)
 
 **Other**
 - Pillow (image uploads)
@@ -182,7 +181,6 @@ cd devsearch
 ```bash
 python -m venv env
 source env/bin/activate        # Mac/Linux
-env\Scripts\activate           # Windows
 ```
 
 **3. Install dependencies:**
@@ -400,22 +398,3 @@ A project with 3 matching tags
 → without distinct() appears 3 times
 → with distinct() appears only once
 ```
-
----
-
-## Recommended Next Steps
-
-- Switch from SQLite to PostgreSQL for production
-- Deploy to Railway or Render
-- Set DEBUG=False in production
-- Configure proper ALLOWED_HOSTS
-- Set up proper media file storage (AWS S3)
-- Add email verification on registration
-- Add password reset functionality
-- Build a React frontend consuming the REST API
-
----
-
-## License
-
-MIT License — feel free to use this project for learning and portfolio purposes.
